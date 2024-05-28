@@ -1,0 +1,15 @@
+Pepper bel bacterial spot
+Pepper bel healthy
+Potato Early Blight
+Potato Healthy
+Potato Late_blight
+Tomato Target_Spot
+Tomato Tomato mosaic virus
+Tomato Tomato Yellow Leaf Curl virus
+Tomato Bacterial Spot
+Tomato Early Blight
+Tomato Healthy
+Tomato Late Blight
+Tomato Leaf Mold
+Tomato Septoria leaf spot
+Tomato Spider mites Two spotted spider mite

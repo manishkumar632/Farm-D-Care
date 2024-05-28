@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>479848763371-6ml4dombbui36h7hhi069okd3f87130t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.479848763371-6ml4dombbui36h7hhi069okd3f87130t</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>479848763371-f87h0si74orhg05dq7984pr1ep0cn2qs.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDcqrS6Akyy7e1wbuk8n9PWS6f-Ufpno78</string>
+	<key>GCM_SENDER_ID</key>
+	<string>479848763371</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.codefusion.farmdcare</string>
+	<key>PROJECT_ID</key>
+	<string>farmdcare-codefusion</string>
+	<key>STORAGE_BUCKET</key>
+	<string>farmdcare-codefusion.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:479848763371:ios:b52b3e0a5732f1324853ae</string>
+</dict>
+</plist>
