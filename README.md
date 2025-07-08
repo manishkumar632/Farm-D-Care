@@ -156,9 +156,6 @@ We welcome contributions! Here's how you can help:
 
 Please follow our coding style and include appropriate tests with your contributions.
 
-## License
-
-This project is available under the MIT License. See the LICENSE file for more details.
 
 ## Support
 
