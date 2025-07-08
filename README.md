@@ -1,48 +1,98 @@
 # FarmDCare
 
-FarmDCare is a cross-platform mobile application designed to assist farmers and agricultural professionals in managing farm activities, accessing resources, and leveraging technology for better crop care and productivity. Built with Flutter and FlutterFlow, the app integrates modern features such as AI-based disease detection, cloud storage, and multilingual support.
+FarmDCare is a cross-platform mobile application designed to help farmers detect diseases in crops like potato and tomato through camera-based leaf scanning. The app provides instant diagnosis, remedies, and educational videos while leveraging modern technologies like Flutter, Firebase, and TensorFlow Lite for an intelligent farming experience.
 
 ![FarmDCare Screenshot](https://github.com/manishkumar632/Farm-D-Care/blob/9558b05b4dd84227d890986db78ae266fb5864fc/images/IMG-20250708-WA0003.jpg)
 
 ## Features
 
-- **AI Disease Detection:** Use TensorFlow Lite models to identify crop diseases from images.
-- **Cloud Integration:** Store and retrieve data using Firebase (Firestore, Storage, Auth, Crashlytics, Performance).
-- **Multilingual Support:** Available in English, Hindi, Gujarati, Bengali, Marathi, Punjabi, Tamil, Nepali, and Telugu.
-- **Media Uploads:** Upload photos, videos, and documents for farm records.
-- **Offline Support:** Access cached data and media when offline.
-- **User Authentication:** Sign in with Google, Apple, or email.
-- **Notifications & Analytics:** Track app usage and receive important updates.
-- **Modern UI:** Built with FlutterFlow, Google Fonts, and responsive layouts.
-- **Resource Library:** Access guides, videos, and PDFs for best farming practices.
+### Current Features
+
+- **AI Disease Detection:**
+
+  - Real-time disease detection using mobile camera
+  - TensorFlow Lite models for on-device analysis
+  - Specialized in potato and tomato diseases (Early Blight, Late Blight)
+
+- **Cloud Integration:**
+
+  - Firebase Authentication for secure user management
+  - Cloudinary for efficient image storage
+  - Firebase Crashlytics and Performance monitoring
+
+- **Smart Diagnostics:**
+
+  - Crop-specific disease diagnosis
+  - Detailed remedy information
+  - Video-based solution guides
+
+- **Multilingual Support:**
+
+  - Available in 9 languages:
+    - English, Hindi, Gujarati, Bengali
+    - Marathi, Punjabi, Tamil
+    - Nepali, Telugu
+
+- **Additional Features:**
+  - Offline support for cached data
+  - Modern, responsive UI
+  - Resource library with farming guides
+
+### Planned Features
+
+- **Expert Connect:** Get personalized guidance from certified agricultural experts
+- **Training Modules:** Video-based learning for modern farming techniques
+- **Rewards System:** Earn points for app usage and community participation
+- **Crop Calendar:** Track crop lifecycle and get timely reminders
+- **News & Updates:** Latest farming news and government schemes
 
 ## Technology Stack
 
-- **Flutter** (Dart)
-- **Firebase** (Firestore, Auth, Storage, Crashlytics, Performance)
-- **TensorFlow Lite** (on-device AI)
-- **Provider** (state management)
-- **Google Sign-In, Apple Sign-In**
-- **FlutterFlow** (UI builder)
-- **Other Packages:** auto_size_text, cached_network_image, file_picker, image_picker, video_player, webview_flutter, etc.
+- **Frontend Framework:**
+  - Flutter (Dart)
+  - FlutterFlow for UI components
+- **Backend Services:**
+
+  - Firebase Authentication
+  - Cloudinary Storage
+  - Firebase Crashlytics
+  - Firebase Performance
+
+- **AI/ML:**
+
+  - TensorFlow Lite
+  - Custom crop disease dataset
+
+- **State Management:**
+
+  - Provider
+
+- **Key Packages:**
+  - auto_size_text
+  - cached_network_image
+  - file_picker
+  - image_picker
+  - video_player
+  - webview_flutter
 
 ## Project Structure
 
-- `lib/` - Main Flutter/Dart source code
-  - `auth/` - Authentication logic
-  - `backend/` - Firebase and backend services
-  - `components/` - Reusable UI components
-  - `pages/` - App screens and widgets
-  - `potato_disease/` - Disease detection features
-  - `flutter_flow/` - FlutterFlow generated code
-- `assets/` - App resources
-  - `images/` - App images and icons
-  - `videos/` - Video content
-  - `audios/` - Audio resources
-  - `pdfs/` - Documentation
-  - `fonts/` - Custom fonts
-- `web/` - Web build files
-- `ios/`, `android/` - Platform-specific code
+```
+lib/
+├── auth/           # Authentication logic
+├── backend/        # Firebase and backend services
+├── components/     # Reusable UI components
+├── pages/         # App screens and widgets
+├── potato_disease/ # Disease detection features
+└── flutter_flow/  # FlutterFlow generated code
+
+assets/
+├── images/        # App images and icons
+├── videos/        # Video content
+├── audios/        # Audio resources
+├── pdfs/          # Documentation
+└── fonts/         # Custom fonts
+```
 
 ## Getting Started
 
@@ -59,9 +109,10 @@ FarmDCare is a cross-platform mobile application designed to assist farmers and 
    flutter pub get
    ```
 
-3. **Add Firebase configuration:**
+3. **Configure Firebase:**
 
-   - Place your `GoogleService-Info.plist` (iOS) and `google-services.json` (Android) in the respective folders.
+   - Add `google-services.json` to Android project
+   - Add `GoogleService-Info.plist` to iOS project
 
 4. **Run the app:**
    ```bash
@@ -96,5 +147,23 @@ The `/images/` folder contains 13 images showcasing various features and UI scre
 
 ## Contributing
 
-Feel free to contribute to this project by submitting issues or pull requests. Please follow the existing code style and include appropriate tests.
+We welcome contributions! Here's how you can help:
 
+- Report bugs and suggest features through issues
+- Submit pull requests for bug fixes and features
+- Help improve documentation
+- Share feedback for UI/UX improvements
+
+Please follow our coding style and include appropriate tests with your contributions.
+
+## License
+
+This project is available under the MIT License. See the LICENSE file for more details.
+
+## Support
+
+For support, please:
+
+- Open an issue on GitHub
+- Contact the development team
+- Check our documentation
