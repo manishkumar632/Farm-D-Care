@@ -98,6 +98,3 @@ The `/images/` folder contains 13 images showcasing various features and UI scre
 
 Feel free to contribute to this project by submitting issues or pull requests. Please follow the existing code style and include appropriate tests.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
