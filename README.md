@@ -29,23 +29,33 @@ FarmDCare is a cross-platform mobile application designed to assist farmers and 
 ## Project Structure
 
 - `lib/` - Main Flutter/Dart source code
-- `assets/images/` - App images (13 images in total)
-- `assets/videos/`, `assets/audios/`, `assets/pdfs/` - Media and document assets
-- `web/` - Web build files and configuration
-- `ios/`, `android/` - Platform-specific code and configuration
+  - `auth/` - Authentication logic
+  - `backend/` - Firebase and backend services
+  - `components/` - Reusable UI components
+  - `pages/` - App screens and widgets
+  - `potato_disease/` - Disease detection features
+  - `flutter_flow/` - FlutterFlow generated code
+- `assets/` - App resources
+  - `images/` - App images and icons
+  - `videos/` - Video content
+  - `audios/` - Audio resources
+  - `pdfs/` - Documentation
+  - `fonts/` - Custom fonts
+- `web/` - Web build files
+- `ios/`, `android/` - Platform-specific code
 
 ## Getting Started
 
 1. **Clone the repository:**
 
-   ```sh
-   git clone https://github.com/manishkumar632/Farm-D-Care.git
+   ```bash
+   git clone https://github.com/yourusername/Farm-D-Care.git
    cd Farm-D-Care
    ```
 
 2. **Install dependencies:**
 
-   ```sh
+   ```bash
    flutter pub get
    ```
 
@@ -54,7 +64,7 @@ FarmDCare is a cross-platform mobile application designed to assist farmers and 
    - Place your `GoogleService-Info.plist` (iOS) and `google-services.json` (Android) in the respective folders.
 
 4. **Run the app:**
-   ```sh
+   ```bash
    flutter run
    ```
 
@@ -84,8 +94,10 @@ The `/images/` folder contains 13 images showcasing various features and UI scre
 | --------------------------------------------------------------------------------------------------------------------------------- |
 | ![13](https://github.com/manishkumar632/Farm-D-Care/blob/9558b05b4dd84227d890986db78ae266fb5864fc/images/IMG-20250708-WA0015.jpg) |
 
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests. Please follow the existing code style and include appropriate tests.
+
 ## License
 
-This project is for educational and demonstration purposes.
-
----
+This project is licensed under the MIT License - see the LICENSE file for details.
